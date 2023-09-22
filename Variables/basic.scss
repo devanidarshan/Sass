@@ -1,0 +1,102 @@
+@import "variables";
+
+*{
+    box-sizing: border-box;
+}
+
+#body{
+    background-color: slategray;
+    font:18px/24px;
+}
+
+#Wrapper{
+    border: 1px solid $border-color;
+    width: auto;
+    height: auto;
+    background: white;
+    margin: 0 auto;
+}
+
+#Header{
+    background: chocolate;
+    text-align: center;
+    color: black;
+    height: 100px;
+    font-family: $main-font;
+    border: 1px solid $border-color;
+}
+
+#Header h1{
+    padding: 30px 0 0 20px;
+    margin: 0;
+}
+
+#Menu{
+    background: mediumpurple;
+    border: 1px solid $border-color;
+}
+
+#Menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+#Menu li{
+    display: inline-block;
+    font-size: large;
+}
+
+#Menu li  a{
+    color: black;
+    display: block;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+
+#Menu li a:hover{
+    background: $main-color;
+    color: orangered;
+}
+
+#Content{
+    width: auto;
+    height: 500px;
+    padding: 15px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    background-color:$main-color;
+}
+
+#Content h1{
+    font-size: 40px;
+    font-family: $main-font;
+}
+
+#Content ::selection{
+    background-color: $main-color;
+    color: orangered;
+}
+
+#Points{
+    margin-top: 100px;
+}
+
+#Points p{
+    font-size: large;
+    font-family: $main-font;
+}
+
+#Footer{
+    background: firebrick;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 15px;
+    clear: both;
+    border:  1px solid $border-color;
+}
+
+#Footer p{
+    font-size: large;
+}

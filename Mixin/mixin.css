@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 18px/24px arial;
+}
+
+div {
+  margin: 0 0 15px 15px;
+}
+
+#First {
+  background: darkblue;
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  box-shadow: -3px -3px 0 rgb(152, 166, 226);
+}
+
+#Second {
+  background: darkseagreen;
+  width: 400px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0 rgb(17, 171, 40);
+}
+
+#Third {
+  background: plum;
+  width: 600px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: -3px -3px 0 rgb(125, 93, 118);
+}/*# sourceMappingURL=mixin.css.map */

@@ -1,0 +1,47 @@
+@import 'mixin';
+
+@mixin bd-radious($value){
+    border-radius: $value;
+}
+
+@mixin box-shadow($top,$left,$blur,$color){
+    box-shadow: $top $left $blur $color ;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font: 18px/24px arial;
+}
+
+div{
+    margin:  0 0 15px 15px;
+}
+
+#First{
+    background:darkblue;
+    width: 150px;
+    height: 150px;
+    @include bd-radious(50px);
+    @include box-shadow(-3px,-3px,0,rgb(11, 3, 6));
+}
+
+#Second{
+    background:darkseagreen;
+    width: 400px;
+    padding: 15px;
+    @include bd-radious(10px);
+    @include box-shadow(3px,3px,0,rgb(17, 171, 40));
+}
+
+
+#Third{
+    background:plum;
+    width:600px;
+    padding: 20px;
+    @include bd-radious(20px);
+    @include box-shadow(-3px,-3px,0,rgb(125, 93, 118));
+}

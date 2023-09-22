@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+#body {
+  background-color: slategray;
+  font: 18px/24px;
+}
+
+#Wrapper {
+  border: 1px solid yellow;
+  width: auto;
+  height: auto;
+  background: white;
+  margin: 0 auto;
+}
+
+#Header {
+  background: chocolate;
+  text-align: center;
+  color: black;
+  height: 100px;
+  font-family: sans-serif;
+  border: 1px solid yellow;
+}
+#Header h1 {
+  padding: 30px 0 0 20px;
+  margin: 0;
+}
+
+#Menu {
+  background: mediumpurple;
+  border: 1px solid yellow;
+}
+#Menu ul {
+  margin: 0;
+  padding: 0;
+}
+#Menu li {
+  display: inline-block;
+  font-size: large;
+}
+#Menu li a {
+  color: black;
+  display: block;
+  padding: 10px 13px;
+  text-decoration: none;
+}
+#Menu li a:hover {
+  background: green;
+  color: orangered;
+}
+
+#Content {
+  width: auto;
+  height: 500px;
+  padding: 15px;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+  background-color: green;
+}
+#Content h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+#Content ::selection {
+  background-color: green;
+  color: orangered;
+}
+
+#Points {
+  margin-top: 100px;
+}
+#Points p {
+  font-size: large;
+  font-family: sans-serif;
+}
+
+#Footer {
+  background: firebrick;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 15px;
+  clear: both;
+  border: 1px solid yellow;
+}
+#Footer p {
+  font-size: large;
+}/*# sourceMappingURL=nesting.css.map */
